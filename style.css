@@ -1,0 +1,140 @@
+html{
+
+    height: 100%;
+    }
+    
+    body{
+    font-family: 'Gloria Hallelujah', cursive;
+    height: 100%;
+    margin:0;
+    
+    }
+    
+    #container{
+    
+    height: 100%;
+    width: 100%;
+    background-color:blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }   
+
+    #box{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    background-color:chartreuse;
+
+        
+    }
+        
+    #esquerdo{
+    
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    background-color:chartreuse;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+
+   }
+   
+   h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    color:blue;
+    text-decoration-color: black;
+    padding-top: 60px;
+   }
+
+    #altura{
+
+    height: 8%;
+    width: 80%;
+    background-color:rgb(203, 250, 157);
+    border-radius: 10px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    font-family: 'Gloria Hallelujah', cursive;
+
+
+    }
+
+    #peso{
+
+    height: 8%;
+    width: 80%;
+    background-color:rgb(203, 250, 157);
+    border-radius: 10px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    font-family: 'Gloria Hallelujah', cursive;
+
+    }
+    #button{
+    height: 8%;
+    width: 80%;
+   background-color: transparent;
+    border-radius: 10px;
+    border-color: white;
+    color:blue;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-bottom: 30px;
+
+    }
+
+    
+
+    #direito{
+
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: chartreuse;
+    flex-direction: column;
+    
+    
+    }
+
+    #res{
+    align-items: center;
+    font-size: 40px;
+    justify-content: center;
+    padding-bottom: 50px;
+    color: blue;
+    
+   
+
+    
+
+    }
+    #img{
+    height: 400px;
+    justify-content: center;    
+    display: flex;
+    text-align: center;
+    padding-top: 130px;
+    
+          
+
+
+    }
